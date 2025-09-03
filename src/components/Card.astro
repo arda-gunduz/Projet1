@@ -1,14 +1,14 @@
 ---
-const { title, price} = Astro.props;
+const { title, price } = Astro.props;
 ---
 
-    <section class="card1 bg-white shadow-lg rounded-lg p-10">
-        <h2 class="card1__title text-2xl font-semibold mb-2">{title}</h2>
-        <p class="card1__price text-xl font-bold text-green-600 mb-4">${price}</p>
-        <ul class="card1__features list-disc list-inside mb-4">
-            <li class="card1__feature">500 GB Storage</li>
-            <li class="card1__feature">2 Users Allowed</li>
-            <li class="card1__feature">Send up to 3 GB</li>
-        </ul>
-        <button class="card1__button bg-blue-500 text-white font-semibold py-2 px-4 rounded hover:bg-blue-600">LEARN MORE</button> 
-    </section>
+<section class="card1 shadow-lg rounded-lg p-10 mx-auto my-4 text-center">
+    <h2 class="card1__title font-sans mb-2">{title}</h2>
+    <p class="card1__price text-xl mb-4">${price}</p>
+    <ul class="card1__features list-disc list-inside mb-4">
+        <li class="card1__feature">500 GB Storage</li>
+        <li class="card1__feature">2 Users Allowed</li>
+        <li class="card1__feature">Send up to 3 GB</li>
+    </ul>
+    <button class="card1__button py-2 px-4 rounded">LEARN MORE</button> 
+</section>
