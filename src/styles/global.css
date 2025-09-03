@@ -4,15 +4,9 @@
 
 @theme {
     --font-sans: 'Montserrat', sans-serif; 
-    --color-fg: var(--clr-fg);
 
-@layer base {
-    :root {
-        --color-primary-gradient: linear-gradient(hsl(236, 72%, 79%), hsl(237, 63%, 64%));
-        --color-primary-gradient-oklch: linear-gradient(oklch(0.7548 0.1033 280.46), oklch(0.5923 0.1644 277.85));
-
-    }
-
+    --color-primary-gradient: linear-gradient(hsl(236, 72%, 79%), hsl(237, 63%, 64%));
+    --color-primary-gradient-oklch: linear-gradient(oklch(0.7548 0.1033 280.46), oklch(0.5923 0.1644 277.85));
     
     --color-neutral-very-light-grayish-blue: hsl(240, 78%, 98%);
     --color-neutral-very-light-grayish-blue-oklch: oklch(0.9752 0.0106 286.2);
@@ -25,5 +19,4 @@
     
     --color-neutral-grayish-blue: hsl(233, 13%, 49%);
     --color-neutral-grayish-blue-oklch: oklch(0.5543 0.0447 278.94);
-}
 }
